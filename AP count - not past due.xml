@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisconnectedResourceItemOfResource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OriginalId="20a9d666-74eb-4967-80b4-93a5c5a76845" OriginalParentId="00000000-0000-0000-0000-000000000000" signature="miLudoCkUtgiZZWmyQe1OHfXRCzxZMgUa77ukKDBi9MFysvIC0ga/09fo2ivkWZHjRm1nIWWYlWjet16nFgnbw==">
+  <SerializableResource>
+    <ZapCalculatedMember>
+      <Properties Id="20a9d666-74eb-4967-80b4-93a5c5a76845" UniqueId="58f867ad-6c7a-411e-949b-8749a37269cf" ResourceType="ZapCalculatedMember" Version="9.55.415" SchemaVersion="6.0" SystemResource="false" UserModified="true" IsReadOnly="false" Licensed="false" Tags="||" TagsUpper="||" IsTagRoot="false" xmlns="urn:Schemas-Zap-BI-Resource">
+        <Name Differentiator="a4189d0a-2d8e-4697-b1ea-63e5311837da" DefaultCultureValue="AP count - not past due">
+          <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+            <CultureString Culture="default" Value="AP count - not past due" LowerValue="ap count - not past due" />
+            <CultureString Culture="fr" Value="Nombre d'échéances - non en retard" LowerValue="nombre d'échéances - non en retard" />
+            <CultureString Culture="en" Value="AP count - not past due" LowerValue="ap count - not past due" />
+          </CultureStrings>
+        </Name>
+        <Created>2018-11-30T03:54:31.7469295Z</Created>
+        <CreatedBy Name="Russell Price" UserName="russell.price@hamiltoncompany.com" DisplayId="russell.price@hamiltoncompany.com" Email="">
+          <SerializableId TypeName="Zap.BI.Core.Security.ClaimsId, Zap.BI.Core" xmlns="urn:Schemas-Zap-BI-Policy">
+            <ClaimsId xmlns="urn:Schemas-Zap-BI-ClaimsId">
+              <OriginalIssuer>hamiltoncompany.com</OriginalIssuer>
+              <Name>russell.price@hamiltoncompany.com</Name>
+              <ObjectId>95ed105f-887d-4fc0-b85f-7c4eaa0f389f</ObjectId>
+              <GroupClaims />
+            </ClaimsId>
+          </SerializableId>
+        </CreatedBy>
+        <LastSaved>2022-05-10T00:21:01.1029013Z</LastSaved>
+        <Modified>2021-02-04T18:31:46.2659845Z</Modified>
+        <ModifiedBy Name="Russell Price" UserName="russell.price@hamiltoncompany.com" DisplayId="russell.price@hamiltoncompany.com" Email="">
+          <SerializableId TypeName="Zap.BI.Core.Security.ClaimsId, Zap.BI.Core" xmlns="urn:Schemas-Zap-BI-Policy">
+            <ClaimsId xmlns="urn:Schemas-Zap-BI-ClaimsId">
+              <OriginalIssuer>hamiltoncompany.com</OriginalIssuer>
+              <Name>russell.price@hamiltoncompany.com</Name>
+              <ObjectId>95ed105f-887d-4fc0-b85f-7c4eaa0f389f</ObjectId>
+              <GroupClaims />
+            </ClaimsId>
+          </SerializableId>
+        </ModifiedBy>
+        <CopiedOn>2022-05-10T15:52:12.8672005Z</CopiedOn>
+        <Description Differentiator="e3611d42-5581-4b9f-8fab-995f1017b85e" DefaultCultureValue="The number of distinct documents with open transactions that are due but not overdue.">
+          <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+            <CultureString Culture="default" Value="The number of distinct documents with open transactions that are due but not overdue." LowerValue="the number of distinct documents with open transactions that are due but not overdue." />
+            <CultureString Culture="en" Value="The number of distinct documents with open transactions that are due but not overdue." LowerValue="the number of distinct documents with open transactions that are due but not overdue." />
+            <CultureString Culture="fr" Value="The number of distinct documents with open transactions that are due but not overdue." LowerValue="the number of distinct documents with open transactions that are due but not overdue." />
+          </CultureStrings>
+        </Description>
+        <Parent Id="00000000-0000-0000-0000-000000000000" />
+        <ExtendedProperties />
+      </Properties>
+      <Notes xmlns="urn:Schemas-Zap-BI-Resource" />
+      <DeferredUpgradeVersion xmlns="urn:Schemas-Zap-BI-Resource">0</DeferredUpgradeVersion>
+      <SerializedConnection TypeName="Zap.Modeller.UI.Resources.ModelResourceCubeConnectionInfo, Zap.Modeller.UI">
+        <ModelResourceCubeConnectionInfo>
+          <ModelReference ResourceTypeName="ModelResource" ReferenceType="Persisted" FolderPath="Public\MCube" Id="{d1bbbb1b-7b0a-4649-8f06-85baa8da7656}">
+            <LocalizableString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Differentiator="ce541dce-f34d-49a7-8c27-b2a6077f0660" DefaultCultureValue="MCube v4.2">
+              <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+                <CultureString Culture="default" Value="MCube v4.2" LowerValue="mcube v4.2" />
+              </CultureStrings>
+            </LocalizableString>
+            <LocalizableString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Differentiator="8315490a-9cca-4db6-874c-ae6707d08ac3" DefaultCultureValue="Development Model.  Continuing development of Inventory and Procurement.">
+              <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+                <CultureString Culture="default" Value="Development Model.  Continuing development of Inventory and Procurement." LowerValue="development model.  continuing development of inventory and procurement." />
+              </CultureStrings>
+            </LocalizableString>
+            <DisconnectedResourceOfModelResource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+          </ModelReference>
+          <DatabaseName>HamCube</DatabaseName>
+          <CubeName>HamCube</CubeName>
+        </ModelResourceCubeConnectionInfo>
+      </SerializedConnection>
+      <Formula>
+        <Type>Numeric</Type>
+        <FormulaValidated>true</FormulaValidated>
+        <Valid>true</Valid>
+        <InfiniteRecursionProtectAxisFilter>false</InfiniteRecursionProtectAxisFilter>
+        <Components>
+          <Item TypeName="Zap.Query.QueryParts.Measure, Zap.Query">
+            <Measure>
+              <Description Differentiator="7a21e1bd-97fe-4de7-8600-8c8ebf20564b" DefaultCultureValue="Counts the unique Document number for each open item.  This is a flag that shows '1' for the first line of a scheduled payment, and '0' for subsequent records.  The flags are then summed to produce the document count.">
+                <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+                  <CultureString Culture="default" Value="Counts the unique Document number for each open item.  This is a flag that shows '1' for the first line of a scheduled payment, and '0' for subsequent records.  The flags are then summed to produce the document count." LowerValue="counts the unique document number for each open item.  this is a flag that shows '1' for the first line of a scheduled payment, and '0' for subsequent records.  the flags are then summed to produce the document count." />
+                </CultureStrings>
+              </Description>
+              <Guid>954cdea3-de6d-4f99-a655-901a8d797c32</Guid>
+              <Dimensionality>
+                <string>[Measures]</string>
+              </Dimensionality>
+              <DynamicDimensionality />
+              <CurrentMemberDimensionality />
+              <DimensionalityPercolated>true</DimensionalityPercolated>
+              <IsValid>true</IsValid>
+              <ImplicitlyReferenced>false</ImplicitlyReferenced>
+              <IsSlicerParameter>false</IsSlicerParameter>
+              <SlicerUniqueId>00000000-0000-0000-0000-000000000000</SlicerUniqueId>
+              <UniqueName>[Measures].[Accounts payable Document count]</UniqueName>
+              <CubeObjectCaption Differentiator="26c04068-46b6-4045-86e8-2ca35efb1ee9" DefaultCultureValue="Accounts payable Document count">
+                <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+                  <CultureString Culture="default" Value="Accounts payable Document count" LowerValue="accounts payable document count" />
+                </CultureStrings>
+              </CubeObjectCaption>
+            </Measure>
+          </Item>
+          <Item TypeName="Zap.Query.QueryParts.Member, Zap.Query">
+            <Member>
+              <Description Differentiator="445b5f42-c6b0-4a28-8ea1-c491a781765c" DefaultCultureValue="Not Late">
+                <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+                  <CultureString Culture="default" Value="Not Late" LowerValue="not late" />
+                </CultureStrings>
+              </Description>
+              <Guid>86a6c21a-c770-45cd-ab72-55e1bc92d236</Guid>
+              <Dimensionality>
+                <string>[Aging buckets].[30 days aging]</string>
+              </Dimensionality>
+              <DynamicDimensionality />
+              <CurrentMemberDimensionality />
+              <DimensionalityPercolated>true</DimensionalityPercolated>
+              <IsValid>true</IsValid>
+              <ImplicitlyReferenced>false</ImplicitlyReferenced>
+              <IsSlicerParameter>false</IsSlicerParameter>
+              <SlicerUniqueId>00000000-0000-0000-0000-000000000000</SlicerUniqueId>
+              <UniqueName>[Aging buckets].[30 days aging].[Direction].&amp;[Not Late]</UniqueName>
+              <TemplateInstances />
+              <CubeObjectCaption Differentiator="eac10054-d0f5-421f-904b-91314d9f5088" DefaultCultureValue="Not Late">
+                <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+                  <CultureString Culture="default" Value="Not Late" LowerValue="not late" />
+                  <CultureString Culture="en-US" Value="Not Late" LowerValue="not late" />
+                </CultureStrings>
+              </CubeObjectCaption>
+            </Member>
+          </Item>
+        </Components>
+      </Formula>
+      <DrillthroughOverrideSet>
+        <ImplicitlyReferenced>false</ImplicitlyReferenced>
+        <IsSlicerParameter>false</IsSlicerParameter>
+        <SlicerUniqueId>00000000-0000-0000-0000-000000000000</SlicerUniqueId>
+        <DimensionalityPercolated>true</DimensionalityPercolated>
+        <IsValid>true</IsValid>
+        <Guid>dfc339f6-2da7-4887-8c91-10dc0afb46da</Guid>
+        <Sets />
+        <Name Differentiator="d9f75995-7ee7-4942-ad2f-b07937c8814c" DefaultCultureValue="">
+          <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+            <CultureString Culture="default" Value="" LowerValue="" />
+          </CultureStrings>
+        </Name>
+        <Description Differentiator="1ed06442-59c9-4844-a1e6-ef143a841c93" DefaultCultureValue="">
+          <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+            <CultureString Culture="default" Value="" LowerValue="" />
+          </CultureStrings>
+        </Description>
+        <CurrentMemberDimensionality />
+      </DrillthroughOverrideSet>
+      <ParentSetComponent TypeName="Zap.Query.QueryParts.Hierarchy, Zap.Query">
+        <Hierarchy>
+          <Description Differentiator="061e08be-fce6-47d1-85c0-c93b4bfc2148" DefaultCultureValue="Measures">
+            <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+              <CultureString Culture="default" Value="Measures" LowerValue="measures" />
+            </CultureStrings>
+          </Description>
+          <Guid>2a284e06-e26e-4952-99b4-797adaaf20b7</Guid>
+          <Dimensionality>
+            <string>[Measures]</string>
+          </Dimensionality>
+          <DynamicDimensionality />
+          <CurrentMemberDimensionality />
+          <DimensionalityPercolated>true</DimensionalityPercolated>
+          <IsValid>true</IsValid>
+          <ImplicitlyReferenced>false</ImplicitlyReferenced>
+          <IsSlicerParameter>false</IsSlicerParameter>
+          <SlicerUniqueId>00000000-0000-0000-0000-000000000000</SlicerUniqueId>
+          <UniqueName>[Measures]</UniqueName>
+          <AdomdInvisible>false</AdomdInvisible>
+          <TemplateInstances />
+          <CubeObjectCaption Differentiator="39641c63-5372-4445-b819-e06af026adfc" DefaultCultureValue="Measures">
+            <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+              <CultureString Culture="default" Value="Measures" LowerValue="measures" />
+              <CultureString Culture="en-US" Value="Measures" LowerValue="measures" />
+            </CultureStrings>
+          </CubeObjectCaption>
+        </Hierarchy>
+      </ParentSetComponent>
+      <MeasureGroup>
+        <Description Differentiator="7c67fc45-4837-4c0b-b47b-5eb3f8641489" DefaultCultureValue="APOBL">
+          <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+            <CultureString Culture="default" Value="APOBL" LowerValue="apobl" />
+          </CultureStrings>
+        </Description>
+        <Guid>01fb8aa1-ad33-4edc-84c9-bed4850fc580</Guid>
+        <Dimensionality>
+          <string>[Measures]</string>
+        </Dimensionality>
+        <DynamicDimensionality />
+        <CurrentMemberDimensionality />
+        <DimensionalityPercolated>true</DimensionalityPercolated>
+        <IsValid>true</IsValid>
+        <ImplicitlyReferenced>false</ImplicitlyReferenced>
+        <IsSlicerParameter>false</IsSlicerParameter>
+        <SlicerUniqueId>00000000-0000-0000-0000-000000000000</SlicerUniqueId>
+        <TemplateInstances />
+        <MeasureGroupName>Accounts payable</MeasureGroupName>
+        <CubeObjectCaption Differentiator="41f18ab9-adac-48c5-9a37-689eba10e600" DefaultCultureValue="Accounts payable">
+          <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+            <CultureString Culture="default" Value="Accounts payable" LowerValue="accounts payable" />
+          </CultureStrings>
+        </CubeObjectCaption>
+      </MeasureGroup>
+      <Format>#,#0</Format>
+      <DisplayFolder Differentiator="ccaa60da-52d0-4e46-bed8-2d4f7714ac10" DefaultCultureValue="">
+        <CultureStrings xmlns="urn:Schemas-Zap-BI-LocalizableString">
+          <CultureString Culture="default" Value="" LowerValue="" />
+        </CultureStrings>
+      </DisplayFolder>
+      <PlaceholderSizes />
+      <CalculationOrder>0</CalculationOrder>
+      <PromptOnImport>false</PromptOnImport>
+      <DefaultDeployAction>DoNotDeploy</DefaultDeployAction>
+    </ZapCalculatedMember>
+  </SerializableResource>
+  <OriginalRelativePath>
+    <string>mcube v4.2</string>
+    <string>mcube v4.2</string>
+    <string>ap</string>
+    <string>calculations</string>
+  </OriginalRelativePath>
+  <SerializableChildren />
+</DisconnectedResourceItemOfResource>
+Secret

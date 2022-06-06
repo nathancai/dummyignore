@@ -1,2 +1,2 @@
-*.xml text eol=lf filter=CopiedOn
+*.xml text eol=lf filter=copiedon
 *.xml text eol=lf filter=timestamp
